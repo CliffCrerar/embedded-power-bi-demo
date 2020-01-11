@@ -1,0 +1,63 @@
+/*
+  Global App CSS
+  ----------------------
+  Use this file for styles that should be applied to all components.
+  For example, "font-family" within the "body" selector is a CSS property
+  most apps will want applied to all components.
+
+  Any global CSS variables should also be applied here.
+*/
+
+@import "../assets/lib/skeleton/normalize.css";
+@import "../assets/lib/skeleton/skeleton.css";
+
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  min-width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+button {
+  background: #5851ff;
+  color: white;
+  margin: 8px;
+  border: none;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 20px;
+  border-radius: 2px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  outline: 0;
+  letter-spacing: 0.04em;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+header {
+  padding: 10px;
+  background: rgb(255, 216, 42);
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+h5{
+	margin:0;
+}
+
+main {
+  height: auto;
+}
